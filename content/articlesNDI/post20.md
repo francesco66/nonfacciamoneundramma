@@ -5,6 +5,7 @@ autore: Francesco P
 parole: incoscienza, terra, cascata, sono, cielo, pertica, vuoto, viaggio
 data: 11 novembre 2020
 tags: 
+img: 
 ---
 Fermo. Intento ad assorbire una nuvola. Guardo verso l'alto, ma non molto.  
 Sono in me. O forse sono nel tutto.  

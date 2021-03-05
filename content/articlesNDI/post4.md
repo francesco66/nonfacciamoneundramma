@@ -5,6 +5,7 @@ autore: Rocchina
 parole: Pazzia, incattivisce, verde, pericolo, divertimento, società, amore, buio
 data: 11 novembre 2020
 tags: 
+img: 
 ---
 
 

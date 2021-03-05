@@ -1,12 +1,12 @@
 ---
+tema: 
 title: Esistenza
 autore: Francesco P
 parole: presenza, calze, paranormale, bigbang, gratitudine, sottile,  ricchezza, resistenza, proteggere, tremula, fragile, respiro
 data: 23 dicembre 2020
 tags: 
+img:
 ---
-## Esistenza
-
 Signore e Signori, vi ringrazio della vostra presenza.
 L'incontro di oggi, come saprete, sara' dedicato allo studio dell'uso del colore delle calze nell'opera del Fintoretto.
 Sebbene il rapporto del Fintoretto con le calze nel paranormale sia gia' stato enucleato nell'opera di Giacomo Deridi,

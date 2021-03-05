@@ -5,6 +5,7 @@ autore: Francesco P
 parole: eliche, secondi, bussola, zampette, esperienze, pistone, stagione, fluire
 data: 3 dicembre 2020
 tags: 
+img: 
 ---
 (VIDEO: https://www.youtube.com/watch?v=GymYL3yqb5o)  
 

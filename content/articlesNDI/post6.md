@@ -5,6 +5,7 @@ autore: Francesco P
 parole: alterata, generazione, acqua, gabbia, aiuto, fallimento, ansietà, campo
 data: 11 novembre 2020
 tags: 
+img: 
 ---
 alterata generazione,  
 degenerazione alterata.  

@@ -5,6 +5,7 @@ autore: Francesco P
 parole: purtroppo, Covid 19, tutto, guerra, pericolo, unione, scombinare, colla, coprifuoco
 data: 11 novembre 2020
 tags: 
+img: 
 ---
 Io Francesco, nato giovanissimo nel '66, ho purtroppo vissuto il periodo della distruzione.
 Una parte di noi ha trovato rifugio nella nuova colonia sul pianeta "covid 19", uno dei primi pianeti vivibili ad essere scoperti in tutto l'universo finora conosciuto.

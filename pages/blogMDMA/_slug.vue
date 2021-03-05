@@ -18,10 +18,10 @@
     <br>
     <nav class="flex justify-between bb b--white-10">
       <div class="flex-grow pa3 pl1 flex items-center">
-      	<PrevNextNDI :prev="prev" />
+      	<PrevNextMDMA :prev="prev" />
       </div>
       <div class="flex-grow pa3 pr1 flex items-center">
-      	<PrevNextNDI :next="next" />
+      	<PrevNextMDMA :next="next" />
       </div>
     </nav>
   </article>

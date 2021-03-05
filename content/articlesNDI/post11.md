@@ -5,6 +5,7 @@ autore: Rocchina
 parole: la solitudine, mi scaldo, surf, rilassatezza, sognare, il sole, trambusto, aquiloni
 data: 11 novembre 2020
 tags: 
+img: 
 ---
 ## VISIONI ONIRICHE
 

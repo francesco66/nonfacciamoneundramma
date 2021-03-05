@@ -1,12 +1,12 @@
 ---
+tema:
 title: Ramo
 autore: Francesco P
 parole: uccellini, boato, cerchio, frescura, serena, capanna, unghie laccate, colpito, salvezza
 data: 30 dicembre 2020
 tags: 
+img: 
 ---
-## Ramo
-
 Uccelli ed uccellini fanno sempre un gran boato.
 Cinguettii colorati o urla estatiche di femmine in cerchio.
 Non e' proprio di frescura che si parla, ma del feroce desiderio a breve consumato

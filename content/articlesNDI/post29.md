@@ -5,6 +5,7 @@ autore: Rocchina
 parole: metallo, diamante, oro, succo di frutta, rifugio, cavallo, mattino, uragano
 data: 11 novembre 2020
 tags: 
+img: 
 ---
 ## Il cavallo
 
