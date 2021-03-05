@@ -4,8 +4,6 @@ title: Follia
 autore: Abha
 parole: Pazzia, incattivisce, verde, pericolo, divertimento, societa', amore, buio
 data: 11 novembre 2020
-img: 
-alt: 
 tags: 
 img: 
 ---
