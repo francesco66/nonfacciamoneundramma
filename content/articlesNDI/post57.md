@@ -1,0 +1,11 @@
+---
+tema:
+title: Sasso
+autore: Gianluigi
+parole: guerra, materasso, soldi, stagno, fiore, pugno, segno
+data: 13 gennaio 2021
+img: teatro.png
+video: 
+tags: 
+---
+Ho nascosto i soldi nel materasso e ci ho fatto un segno.

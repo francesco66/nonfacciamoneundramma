@@ -1,0 +1,11 @@
+---
+tema:
+title: Cuore
+autore: Gianluigi
+parole: sole, sbadigliare, marmo, bambola, sognare, piccante, salsa
+data: 13 gennaio 2021
+img: teatro.png
+video: 
+tags: 
+---
+Io sogno di mangiare una salsa piccante al sole.

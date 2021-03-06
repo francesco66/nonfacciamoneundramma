@@ -5,7 +5,7 @@ autore: Francesco P
 parole: bianco, fantastico, cielo, buio, aggancio, musica, pesco, vento
 data: 11 novembre 2020
 tags: 
-img: 
+img: teatro.png
 ---
 "Ciao Bianca!",  
 "Ciao Bianco!".  

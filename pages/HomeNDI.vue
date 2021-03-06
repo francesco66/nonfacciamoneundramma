@@ -15,12 +15,12 @@
         <NuxtLink :to="{ name: 'blogNDI-slug', params: { slug: article.slug } }">
           <div class="flex flex-column flex-row-ns">
             <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-              <img src="~/assets/teatro.png" class="db" alt="no foto">
+              <img class="db" :src="article.img"/>
             </div>
             <div class="w-100 w-60-ns pl3-ns">
               <h1 class="f3 fw1 baskerville mt0 lh-title">{{ article.title }}</h1>
               <p class="f6 f5-l lh-copy">{{ article.autore }}</p>
-              <p class="f6 lh-copy mv0">{{ article.parole }}</p>
+              <!--<p class="f6 lh-copy mv0">{{ article.parole }}</p>-->
             </div>
           </div>
         </NuxtLink>
@@ -35,7 +35,7 @@
 export default {
   async asyncData({ $content, params }) {
     const articles = await $content('articlesNDI')
-      .only(['title', 'autore', 'slug', 'parole'])
+      .only(['title', 'autore', 'slug', 'parole', 'img'])
       .sortBy('data', 'asc')
       .fetch()
 
@@ -47,5 +47,4 @@ export default {
 </script>
 
 <style>
-
 </style>

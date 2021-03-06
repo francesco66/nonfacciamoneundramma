@@ -31,6 +31,6 @@ export default {}
 
 <style>
 .cover {
-  background-image: url("~/assets/teatro.png");
+  background-image: url("~/static/teatro.png");
 }
 </style>

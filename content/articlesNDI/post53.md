@@ -1,0 +1,16 @@
+---
+tema:
+title: Cuore
+autore: Francesco P
+parole: sole, sbadigliare, marmo, bambola, sognare, piccante, salsa
+data: 13 gennaio 2021
+img: teatro.png
+video: 
+tags: 
+---
+Steso abbandonato al sole, con quell'intorpidimento che mi fa quasi sbadigliare,
+allungo la mano verso la tua.
+E la sento cosi' fredda che quasi mi risveglio. Hai le mani fredde come il marmo.
+Eggia' ora si che mi risveglio, non sei lei, sei la mia bambola, la sua effigie.
+Peccato mi stava piacendo sognare tutte quelle cose piccanti ...
+Davvero un peccato ... saresti stata la mia salsa per l'infinito.

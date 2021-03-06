@@ -15,7 +15,7 @@
         <NuxtLink :to="{ name: 'blogMDMA-slug', params: { slug: article.slug } }">
           <div class="flex flex-column flex-row-ns">
             <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-              <img src="~/assets/teatro.png" class="db" alt="no foto">
+              <img class="db" :src="article.img"/>
             </div>
             <div class="w-100 w-60-ns pl3-ns">
               <h1 class="f3 fw1 baskerville mt0 lh-title">{{ article.title }}</h1>
@@ -46,5 +46,4 @@ export default {
 </script>
 
 <style>
-
 </style>

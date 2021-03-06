@@ -12,6 +12,7 @@
     <p v-if="article.tema" class="measure lh-copy">Tema: {{ article.tema }}</p>
     <p class="measure lh-copy">Parole: {{article.parole }}</p>
     <h1 class="f3 f1-m f-headline-l">{{ article.title }}</h1>
+    <iframe v-if="article.video" width="560" height="315" :src="article.video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <p class="measure lh-copy">
       <nuxt-content :document="article" />
     </p>
