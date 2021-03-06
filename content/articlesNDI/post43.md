@@ -4,7 +4,7 @@ title: Partenza
 autore: Francesco
 parole: infinito, viaggio, le nuvole, gradino, borsa, treno, dramma
 data: 13 gennaio 2021
-img: teatro.png
+img: pexels-miguel-á-padriñán.jpg
 video: https://www.youtube.com/embed/hVPw022QyfY
 tags: 
 ---

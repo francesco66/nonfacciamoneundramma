@@ -4,7 +4,7 @@ title: il viaggio  della  vita
 autore: Rocchina
 parole: guerra, materasso, soldi, stagno, fiore, pugno, segno
 data: 13 gennaio 2021
-img: teatro.png
+img: rocks.jpg
 video: 
 tags: 
 ---

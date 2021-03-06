@@ -4,7 +4,7 @@ title: Follia
 autore: Satyamo
 parole: Pazzia, incattivisce, verde, pericolo, divertimento, società, amore, buio
 data: 11 novembre 2020
-img: pexels-elina-krima-3319333.jpg
+img: pexels-elina-krima.jpg
 tags: 
 ---
 Se il livello di pazzia in un'uomo fosse un elemento positivo, se uscisse fuori dalla griglia, o fosse una fase esplorativa, di ricerca personale e non un atto provocatorio contro la quale ci si incattivisce, forse saremo una società sana di mente.  I semafori rossi che dirigono il comportamento umano attraverso divieti e diktat moralistici che accostano l'idea del verde come un pericolo ad ogni esplosione di divertimento, di sfogo, di gioia, di sensualità, non può che presagire la morte di una società che ha dimenticato l'amore e che cammina rapidamente verso il buio.

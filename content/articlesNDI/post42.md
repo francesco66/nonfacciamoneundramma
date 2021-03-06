@@ -4,7 +4,7 @@ title: Partenza
 autore: Rocchina
 parole: infinito, viaggio, le nuvole, gradino, borsa, treno, dramma
 data: 13 gennaio 2021
-img: teatro.png
+img: pexels-miguel-á-padriñán.jpg
 tags: 
 ---
 # "IL VIAGGIO  DELLA  VITA" 

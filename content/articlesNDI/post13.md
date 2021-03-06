@@ -5,7 +5,7 @@ autore: Francesco P
 parole: energia, ricominciare, nascita, quando, profondo, apnea, spazio, onirico
 data: 11 novembre 2020
 tags: 
-img: teatro.png
+img: 207655.jpg
 ---
 Datti una carica di energia per ricominciare!  
 Con FATTIFORZA compresse rivestite potrai vivere una nuova nascita.  

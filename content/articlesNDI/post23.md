@@ -5,7 +5,7 @@ autore: Luca
 parole: bianco, fantastico, cielo, buio, aggancio, musica, pesco, vento
 data: 11 novembre 2020
 tags: 
-img: teatro.png
+img: Uomo-davanti-ad-un-punto-interrogativo.jpg
 ---
 
 

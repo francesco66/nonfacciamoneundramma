@@ -5,7 +5,7 @@ autore: Francesco P
 parole: sangue, libero, passione, spine, giocare, settimana, more, plasmare
 data: 11 novembre 2020
 tags: 
-img: teatro.png
+img: pexels-pixabay.jpg
 ---
 Nel nascondere l'amore nei rovi mi sono dissanguato  
 e dal mio sangue puro la terra ha germogliato  

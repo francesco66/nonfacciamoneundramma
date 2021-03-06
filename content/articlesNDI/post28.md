@@ -5,7 +5,7 @@ autore: Luca
 parole: metallo, diamante, oro, succo di frutta, rifugio, cavallo, mattino, uragano
 data: 11 novembre 2020
 tags: 
-img: teatro.png
+img: 207647.jpg
 
 ---
 

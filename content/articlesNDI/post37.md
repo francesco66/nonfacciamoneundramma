@@ -5,9 +5,12 @@ autore: Francesco P
 parole: eliche, secondi, bussola, zampette, esperienze, pistone, stagione, fluire
 data: 3 dicembre 2020
 tags: 
-img: teatro.png
+img: pexels-jordan-benton.jpg
+video: https://www.youtube.com/embed/GymYL3yqb5o
 ---
-(VIDEO: https://www.youtube.com/watch?v=GymYL3yqb5o)  
+
+
+
 
 marcano il tempo vorticosamente ...  
 eliche di tempo di minuti di secondi e di immensi attimi.
@@ -37,3 +40,4 @@ disorientato, vaga.
 disorientato, vede.
 
 lasciatemi fluire (nell'immenso?)
+

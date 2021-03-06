@@ -4,7 +4,7 @@ title: Pandemia
 autore: Francesco P
 parole: purtroppo, Covid 19, tutto, guerra, pericolo, unione, scombinare, colla, coprifuoco
 data: 11 novembre 2020
-img: boy-in-the-soviet-gas-mask-3-1306639.jpg
+img: boy-in-the-soviet-gas-mask.jpg
 tags: 
 ---
 Io Francesco, nato giovanissimo nel '66, ho purtroppo vissuto il periodo della distruzione.

@@ -4,7 +4,7 @@ title: Cuore
 autore: Luca
 parole: sole, sbadigliare, marmo, bambola, sognare, piccante, salsa
 data: 13 gennaio 2021
-img: teatro.png
+img: pexels-anna-urlapova-2957058.jpg
 video: 
 tags: 
 ---
