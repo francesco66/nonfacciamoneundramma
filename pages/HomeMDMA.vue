@@ -10,6 +10,18 @@
     <!-- pagina principale del blog del gruppo Mai Dire Mi Arrendo -->
     <section class="mw7 center avenir">
       <h2 class="baskerville fw1 ph3 ph0-l">Mai Dire Mi Arrendo</h2>
+	  
+	      <div class="fw1 ph3 ph0-l">
+    <vue-plyr>
+      <audio controls crossorigin playsinline>
+        <source
+            src="/diarioMDMA1.mp3"
+            type="audio/mp3"
+        />
+      </audio>
+    </vue-plyr>
+</div>
+
       <article class="bt bb b--black-10">
         <a class="db pv4 ph3 ph0-l no-underline black dim" href="#0" v-for="article of articles" :key="article.slug">
         <NuxtLink :to="{ name: 'blogMDMA-slug', params: { slug: article.slug } }">
