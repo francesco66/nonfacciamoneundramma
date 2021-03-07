@@ -3,7 +3,7 @@ tema:
 title: Partenza
 autore: Luca
 parole: infinito, viaggio, le nuvole, gradino, borsa, treno, dramma
-data: 13 gennaio 2021
+data: 6 gennaio 2021
 img: pexels-miguel-á-padriñán.jpg
 tags: 
 ---

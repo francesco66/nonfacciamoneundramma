@@ -3,7 +3,7 @@
     <NuxtLink
       v-if="prev"
       :to="{ name: 'blogNDI-slug', params: { slug: prev.slug } }"
-      class="text-primary font-bold hover:underline"
+      class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3"
     >
       pre {{ prev.title }} di {{ prev.autore }}
     </NuxtLink>
@@ -11,7 +11,7 @@
     <NuxtLink
       v-if="next"
       :to="{ name: 'blogNDI-slug', params: { slug: next.slug } }"
-      class="font-bold hover:underline"
+      class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3"
     >
       next {{ next.title }} di {{ next.autore }}
     </NuxtLink>

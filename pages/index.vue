@@ -12,7 +12,7 @@
           <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >Dove siamo</a> 
           <a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >Perche'</a> 
         </div>
-      </nav> 
+      </nav>
       <div class="tc-l mt4 mt5-m mt6-l ph3">
         <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">Non Facciamone Un Dramma</h1>
         <h2 class="fw1 f3 white-80 mt3 mb4">Il Blog dei blogs</h2>

@@ -3,7 +3,7 @@ tema:
 title: Sasso
 autore: Luca
 parole: guerra, materasso, soldi, stagno, fiore, pugno, segno
-data: 13 gennaio 2021
+data: 6 gennaio 2021
 img: rocks.jpg
 video: 
 tags: 

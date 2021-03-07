@@ -3,7 +3,7 @@ tema:
 title: Cuore
 autore: Satyamo
 parole: sole, sbadigliare, marmo, bambola, sognare, piccante, salsa
-data: 13 gennaio 2021
+data: 6 gennaio 2021
 img: pexels-anna-urlapova-2957058.jpg
 video: 
 tags: 
