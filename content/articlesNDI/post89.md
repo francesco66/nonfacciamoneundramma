@@ -1,9 +1,9 @@
 ---
 tema:
-title: Ramo
+titolo: Ramo
 autore: Gianluigi
 parole: uccellini, boato, cerchio, frescura, serena, capanna, unghie, laccate, colpito, salvezza
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

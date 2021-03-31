@@ -1,9 +1,9 @@
 ---
 tema:
-title: Partenza
+titolo: Partenza
 autore: Rocchina
 parole: infinito, viaggio, le nuvole, gradino, borsa, treno, dramma
-data: 6 gennaio 2021
+data: '6 gennaio 2021'
 img: pexels-miguel-á-padriñán.jpg
 tags: 
 ---

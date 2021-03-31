@@ -1,9 +1,9 @@
 ---
 tema:
-title: Pandemia
+titolo: Pandemia
 autore: Francesco P
 parole: purtroppo, Covid 19, tutto, guerra, pericolo, unione, scombinare, colla, coprifuoco
-data: 11 novembre 2020
+data: '11 novembre 2020'
 img: boy-in-the-soviet-gas-mask.jpg
 tags: 
 ---

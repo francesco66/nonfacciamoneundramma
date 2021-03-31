@@ -1,11 +1,11 @@
 ---
 tema:
-title: Verita'
+titolo: Verita'
 autore: Francesco P
 parole: nascosta, legno, scontata, ferita, relativa, cristallo, a volte fa male, coraggio, maturità, impossibile, imbrigliata, ciò che è
-data: 23 dicembre 2020
+data: '23 dicembre 2020'
 tags: 
-img: 
+img: 207666.jpg
 ---
 Giorgio e Alice siedono ad un tavolo.
 I loro visi esprimono tensione.

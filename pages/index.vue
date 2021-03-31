@@ -8,9 +8,9 @@
           </a>
         </div>
         <div class="dtc v-mid tr pa3">
-          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >Chi siamo</a> 
-          <a class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" >Dove siamo</a> 
-          <a class="f6 fw4 hover-white no-underline white-70 dn dib-l pv2 ph3" href="/" >Perche'</a> 
+          <NuxtLink class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" to="/chisiamo">Chi siamo</NuxtLink>
+          <NuxtLink class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" to="/dovesiamo">Dove siamo</NuxtLink>
+          <NuxtLink class="f6 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="/" to="/perche">Perche'</NuxtLink>
         </div>
       </nav>
       <div class="tc-l mt4 mt5-m mt6-l ph3">
@@ -23,7 +23,6 @@
     </div>
   </header>
 </template>
-
 
 <script>
 export default {}

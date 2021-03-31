@@ -1,9 +1,9 @@
 ---
 tema:
-title: Sasso
+titolo: Sasso
 autore: Francesco P
 parole: guerra, materasso, soldi, stagno, fiore, pugno, segno
-data: 6 gennaio 2021
+data: '6 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

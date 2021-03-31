@@ -1,11 +1,11 @@
 ---
 tema: 
-title: Esistenza
+titolo: Esistenza
 autore: Francesco P
 parole: presenza, calze, paranormale, bigbang, gratitudine, sottile,  ricchezza, resistenza, proteggere, tremula, fragile, respiro
-data: 23 dicembre 2020
+data: '23 dicembre 2020'
 tags: 
-img:
+img: mdma2.jpg
 ---
 Signore e Signori, vi ringrazio della vostra presenza.
 L'incontro di oggi, come saprete, sara' dedicato allo studio dell'uso del colore delle calze nell'opera del Fintoretto.

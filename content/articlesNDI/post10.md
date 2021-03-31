@@ -1,9 +1,9 @@
 ---
 tema: 
-title: Al mare
+titolo: Al mare
 autore: Abha
 parole: la solitudine, mi scaldo, surf, rilassatezza, sognare, il sole, trambusto, aquiloni
-data: 11 novembre 2020
+data: '11 novembre 2020'
 img: by-the-sea.jpg
 tags: 
 ---

@@ -1,9 +1,9 @@
 ---
 tema:
-title: Marcano il tempo
+titolo: Marcano il tempo
 autore: Satyamo
 parole: eliche, secondi, bussola, zampette, esperienze, pistone, stagione, fluire
-data: 3 dicembre 2020
+data: '3 dicembre 2020'
 tags: 
 img: pexels-jordan-benton.jpg
 ---

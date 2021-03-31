@@ -1,9 +1,9 @@
 ---
 tema:
-title: Macchina
+titolo: Macchina
 autore: Gianluigi
 parole: infinito, ingranaggi, ermellino, status symbol, tempo, lastricato, giorno
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

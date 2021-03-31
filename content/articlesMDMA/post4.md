@@ -1,11 +1,11 @@
 ---
 tema: 
-title: Percorso
+titolo: Percorso
 autore: Francesco P
 parole: usato, cintura, castita', vario, sulla strada, in discesa, donna, morire, volo
-data: 30 dicembre 2020
+data: '30 dicembre 2020'
 tags: 
-img: 
+img: 207655.jpg
 ---
 Vendo uomo vintage. Usato poco. In discrete condizioni generali. Regalo anche una cintura taglia large per lo stesso.
 Sebbene non abbia vissuto in totale castita' ha pochi malfunzionamenti. Qualche vario graffio sulla pelle.

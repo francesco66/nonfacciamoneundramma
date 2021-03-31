@@ -1,9 +1,9 @@
 ---
 tema:
-title: Follia
+titolo: Follia
 autore: Gianluigi
 parole: Pazzia, incattivisce, verde, pericolo, divertimento, società, amore, buio
-data: 11 novembre 2020
+data: '11 novembre 2020'
 img: pexels-elina-krima.jpg
 tags: 
 ---

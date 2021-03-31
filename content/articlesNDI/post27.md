@@ -1,9 +1,9 @@
 ---
 tema:
-title: Dov'e' la gioia
+titolo: Dov'e' la gioia
 autore: Abha
 parole: metallo, diamante, oro, succo di frutta, rifugio, cavallo, mattino, uragano
-data: 11 novembre 2020
+data: '11 novembre 2020'
 tags: 
 img: 207647.jpg
 ---

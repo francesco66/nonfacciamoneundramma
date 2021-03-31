@@ -1,9 +1,9 @@
 ---
 tema:
-title: Parola
+titolo: Parola
 autore: Gianluigi
 parole: funivia, arte, comprendere, lingue, prosciutto, rocambolesco, trapezio
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

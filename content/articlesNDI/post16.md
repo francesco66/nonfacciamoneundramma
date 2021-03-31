@@ -1,9 +1,9 @@
 ---
 tema:
-title: Trovo la magia
+titolo: Trovo la magia
 autore: Satyamo
 parole: trasformo, svelo, gatto, per, giocando, anello, sfera, preziosa
-data: 11 novembre 2020
+data: '11 novembre 2020'
 tags: 
 img: hifi-texture-adventures.jpg
 ---

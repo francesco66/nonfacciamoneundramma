@@ -1,11 +1,11 @@
 ---
 tema:
-title: Cuore selvaggio
+titolo: Cuore selvaggio
 autore: Francesco P
 parole: ribelle, dimenticato, tributo, rosso fuoco, arde, temperatura, perdono, montagna
-data: 30 dicembre 2020
+data: '30 dicembre 2020'
 tags: 
-img:
+img: mdma1.jpg
 ---
 Sono un ribelle dimenticato. Ho pagato il mio tributo alla storia, e nessuno si ricorda piu' di me.
 Quel rosso fuoco che ardeva nelle mie vene ora e' legna che arde per scaldare la temperatura che, qui in ospizio,

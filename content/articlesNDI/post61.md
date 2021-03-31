@@ -1,9 +1,9 @@
 ---
 tema:
-title: Termosifone
+titolo: Termosifone
 autore: Abha
 parole: acqua, felicità, tristezza, caldo, partorire, sublime, chiodo
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

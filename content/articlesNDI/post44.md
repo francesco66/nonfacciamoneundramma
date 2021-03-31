@@ -1,9 +1,9 @@
 ---
 tema:
-title: Appuntamento
+titolo: Appuntamento
 autore: Satyamo
 parole: amore, giorno, luna, precisione, ritardo, flusso, battito
-data: 6 gennaio 2021
+data: '6 gennaio 2021'
 img: pexels-alessio-cesario.jpg
 video: 
 tags: 

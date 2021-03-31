@@ -1,9 +1,9 @@
 ---
 tema:
-title: Cerco un nome
+titolo: Cerco un nome
 autore: Satyamo
 parole: bianco, fantastico, cielo, buio, aggancio, musica, pesco, vento
-data: 11 novembre 2020
+data: '11 novembre 2020'
 tags: 
 img: Uomo-davanti-ad-un-punto-interrogativo.jpg
 ---

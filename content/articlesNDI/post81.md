@@ -1,9 +1,9 @@
 ---
 tema:
-title: Percorso
+titolo: Percorso
 autore: Satyamo
 parole: usato, cintura, castità, vario, sulla strada, in discesa, donna, morire, volo
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

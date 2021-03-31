@@ -1,9 +1,9 @@
 ---
 tema:
-title: Speranza
+titolo: Speranza
 autore: Gianluigi
 parole: aria, ectoplasma, sangue, cemento, danza, paradiso, coraggio
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

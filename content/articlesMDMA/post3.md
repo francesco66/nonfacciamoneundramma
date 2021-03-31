@@ -1,11 +1,11 @@
 ---
 tema: 
-title: Accade
+titolo: Accade
 autore: Francesco P
 parole: a volte, fato, sesso selvaggio, ribelli, gioia, sulla tavola, labirinto, domani, crocevia
-data: 30 dicembre 2020
+data: '30 dicembre 2020'
 tags: 
-img: 
+img: 207666.jpg
 ---
 Ehh a volte io ho fato sesso selvaggio anche senza pagare. Lo so io da me che vivo ribelli.
 Ma con gioia, sai?

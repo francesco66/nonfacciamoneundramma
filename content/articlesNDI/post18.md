@@ -1,9 +1,9 @@
 ---
 tema:
-title: Il mio volo
+titolo: Il mio volo
 autore: Satyamo
 parole: incoscienza, terra, cascata, sono, cielo, pertica, vuoto, viaggio
-data: 11 novembre 2020
+data: '11 novembre 2020'
 tags: 
 img: seagull-flying.jpg
 ---

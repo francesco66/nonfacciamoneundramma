@@ -1,9 +1,9 @@
 ---
 tema:
-title: Un bel respiro
+titolo: Un bel respiro
 autore: Francesco P
 parole: energia, ricominciare, nascita, quando, profondo, apnea, spazio, onirico
-data: 11 novembre 2020
+data: '11 novembre 2020'
 tags: 
 img: 207655.jpg
 ---

@@ -1,9 +1,9 @@
 ---
 tema:
-title: Cuore Selvaggio
+titolo: Cuore Selvaggio
 autore: Gianluigi
 parole: ribelle, dimenticato, tributo, rosso fuoco, arde, temperatura, perdono, montagna
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 

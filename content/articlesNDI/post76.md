@@ -1,9 +1,9 @@
 ---
 tema:
-title: Accade
+titolo: Accade
 autore: Abha
 parole: a volte, fato, sesso selvaggio, ribelli, gioia, sulla tavola, labirinto, domani, crocevia
-data: 13 gennaio 2021
+data: '13 gennaio 2021'
 img: rocks.jpg
 video: 
 tags: 
