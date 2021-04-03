@@ -1,6 +1,6 @@
 ---
 tema:
-titolo: il viaggio  della  vita
+titolo: Il viaggio della vita
 autore: Rocchina
 parole: guerra, materasso, soldi, stagno, fiore, pugno, segno
 data: '6 gennaio 2021'

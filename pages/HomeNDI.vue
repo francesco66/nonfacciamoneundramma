@@ -4,7 +4,7 @@
     <nav class="flex justify-between bg-black bb b--white-10">
       <NuxtLink class="link white hover-green no-underline flex items-center pa3" href="" title="Home" to="/">HOME</NuxtLink>
       <!-- <h1 class="baskerville fw7 ma2 pa3 ph1-l white">Nel Dominio dell'Incerto</h1> -->
-      <h1 class="baskerville f1 f-headline-l fw1 i ">Nel Dominio dell'Incerto</h1>
+      <h1 class="baskerville f1 f-headline-l fw1 i white">Nel Dominio dell'Incerto</h1>
 
       <div class="flex-grow pa3 flex items-center">
         <AppSearchInputNDI class="f6 link green dib mr3 mr4-ns" />
