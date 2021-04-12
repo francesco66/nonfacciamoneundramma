@@ -38,7 +38,7 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const article = await $content('articlesMDMA', params.slug).fetch()
+    const article = await $content('articlesMDMA', params.slug, { 'text': true }).fetch()
     let show_parole = false
 
     const [prev, next] = await $content('articlesMDMA')
