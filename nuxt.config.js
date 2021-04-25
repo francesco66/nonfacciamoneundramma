@@ -18,7 +18,7 @@ export default {
   target: 'static',
 
   router: {
-    base: '/nonfacci/'
+    base: '/nonfacciamoneundramma/'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
