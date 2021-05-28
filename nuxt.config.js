@@ -19,7 +19,7 @@ export default {
 
   router: {
     // necessario per github pages ma FORSE non per altri siti?
-//    base: '/nonfacciamoneundramma/'
+    base: '/nonfacciamoneundramma/'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
