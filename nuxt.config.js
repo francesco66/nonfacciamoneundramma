@@ -18,12 +18,13 @@ export default {
   target: 'static',
 
   router: {
-    base: '/nonfacciamoneundramma/'
+    // necessario per github pages ma FORSE non per altri siti?
+//    base: '/nonfacciamoneundramma/'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-	"tachyons/css/tachyons.min.css",
+  	"tachyons/css/tachyons.min.css",
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
