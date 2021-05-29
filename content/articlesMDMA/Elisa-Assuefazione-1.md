@@ -1,10 +1,10 @@
 ---
 tema: Assuefazione
-title: Assuefazione
+titolo: Assuefazione
 autore: Elisa
 parole: serie 3
-data: ""
-img: by-the-sea.jpg
+data: 'maggio 2021'
+img: hifi-texture-adventures.jpg
 tags: 
 ---
 Con aria distratta osservò la gabbia davanti a me, non ha sbarre ma una sottile lastra di vetro trasparente che ti permette di osservare il robot, dalle sembianze femminili che, nell'intimità del privet dell'ennesimo locale che ho deciso di frequentare, per distrarmi da un mondo oramai irriconoscibile, balla sensuale su quel cubo magico o almeno così mi appare, grazie ai suoi giochi di luci e colori che risultano accecanti agli occhi umani.

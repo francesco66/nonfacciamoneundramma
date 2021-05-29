@@ -1,10 +1,10 @@
 ---
 tema:
-title: Boomerang
+titolo: Boomerang
 autore: Elisa
 parole: serie 4
-data: ""
-img: Incerto.jpg
+data: 'maggio 2021'
+img: pexels-pixabay-2163.jpg
 tags: 
 ---
 Nina guardava emozionata tutte quelle colorate acrobazie, guardava Il presentatore annunciare tutti gli artisti, uno a uno e li guardava esibirsi in numeri a dir poco pazzeschi che potevano essere considerati quasi da paese delle meraviglie.

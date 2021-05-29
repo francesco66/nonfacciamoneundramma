@@ -1,10 +1,10 @@
 ---
 tema:
-title: Boomerang
+titolo: Boomerang
 autore: Elisa
 parole: serie 2
-data: ""
-img: Incerto.jpg
+data: 'maggio 2021'
+img: pexels-pixabay-2163.jpg
 tags: 
 ---
 Ho Intrapreso un lungo viaggio sai? Ho attraversato aridi deserti, fitti boschi e lande piene di strane creature per riuscire a portarti questo specchio.

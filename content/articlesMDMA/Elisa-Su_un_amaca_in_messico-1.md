@@ -1,9 +1,9 @@
 ---
 tema: Su un'amaca in Messico
-title: Su un'amaca in Messico
+titolo: Su un'amaca in Messico
 autore: Elisa
 parole: all'arrivo, dondolando, desiderio immenso, mezcal, finestra, come un cane sciolto, gioia, riposo
-data: ""
+data: 'maggio 2021'
 img: by-the-sea.jpg
 tags: 
 ---

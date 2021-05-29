@@ -1,10 +1,10 @@
 ---
 tema:
-title: Boomerang
+titolo: Boomerang
 autore: Elisa
 parole: serie 1
-data: ""
-img: Incerto.jpg
+data: 'maggio 2021'
+img: pexels-pixabay-2163.jpg
 tags: 
 ---
 Fu così che il giudice iniziò il processo a quel viandante.

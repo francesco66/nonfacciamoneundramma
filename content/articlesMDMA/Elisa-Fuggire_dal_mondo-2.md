@@ -1,10 +1,10 @@
 ---
 tema: Fuggire dal mondo
-title: Fuggire dal mondo
+titolo: Fuggire dal mondo
 autore: Elisa
 parole: 
-data: ""
-img: by-the-sea.jpg
+data: 'maggio 2021'
+img: pexels-miguel-á-padriñán.jpg
 tags: 
 ---
 Non ne ho piÃ¹ voglia di stare ad ascoltare questa stupida lezione di matematicaâ€¦

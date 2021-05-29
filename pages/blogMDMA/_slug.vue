@@ -7,8 +7,7 @@
       </div> -->
     </nav>
 
-    <!-- <h3 class="measure lh-copy">{{ article.data }} - {{article.autore }}</h3> -->
-    <h3 class="measure lh-copy">{{article.autore }}</h3>
+    <h3 class="measure lh-copy">{{ article.data }} - {{article.autore }}</h3>
     <p v-if="article.tema" class="measure lh-copy">Tema: {{ article.tema }}</p>
     <a class="f6 link dim br3 ba ph3 pv2 mb2 dib near-black" v-on:click="show_parole= !show_parole">Vedi parole</a>
     <p v-if="show_parole" class="measure lh-copy di">  {{article.parole }}</p>
@@ -45,7 +44,7 @@ export default {
     const [prev, next] = await $content('articlesMDMA')
         /*.only(['title', 'slug', 'autore', 'data'])*/
         /* .sortBy('createdAt', 'asc') */
-        .sortBy('title', 'asc')
+        .sortBy('titolo', 'asc')
         .surround(params.slug)
         .fetch()
 

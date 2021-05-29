@@ -1,10 +1,10 @@
 ---
 tema: Assuefazione
-title: Assuefazione
+titolo: Assuefazione
 autore: Elisa
 parole: serie 4
-data: ""
-img: by-the-sea.jpg
+data: 'maggio 2021'
+img: hifi-texture-adventures.jpg
 tags: 
 ---
 Eccomi ora a pagare il prezzo per quelle bugie.

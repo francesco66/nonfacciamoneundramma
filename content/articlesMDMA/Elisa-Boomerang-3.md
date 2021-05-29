@@ -1,10 +1,10 @@
 ---
 tema:
-title: Boomerang
+titolo: Boomerang
 autore: Elisa
 parole: serie 3
-data: ""
-img: Incerto.jpg
+data: 'maggio 2021'
+img: pexels-pixabay-2163.jpg
 tags: 
 ---
 Leonora aveva intrapreso una strada pericolosa, l'alchimia difatti è figlia della scienza e della magia, ma se si usa troppa magia si cade nella stregoneria e quindi nell'eresia.

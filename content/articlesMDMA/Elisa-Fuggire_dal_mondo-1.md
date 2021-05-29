@@ -1,10 +1,10 @@
 ---
 tema: Fuggire dal mondo
-title: Fuggire dal mondo
+titolo: Fuggire dal mondo
 autore: Elisa
 parole: 
-data: ""
-img: by-the-sea.jpg
+data: 'maggio 2021'
+img: pexels-miguel-á-padriñán.jpg
 tags: 
 ---
 Sono il piÃ¹ giovane del mio battaglione, ho solo 15 anni, ma tutti devono combattere per difendere la patria, nessuno escluso, ragazzi, uomini, talvolta bambini.
