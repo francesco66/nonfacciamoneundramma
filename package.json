@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/content": "^1.11.1",
     "core-js": "^3.8.3",
+    "file-saver": "^2.0.5",
     "nuxt": "^2.14.12",
     "tachyons": "^4.12.0"
   },
