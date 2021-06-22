@@ -1,6 +1,6 @@
 <template>
   <header class="sans-serif">
-    <div class="vh-100 w-100 cover bg-left bg-center" style="background-image no-repeat center;">
+    <div class="vh-100 w-100 cover bg-left bg-center" style="background-image no-repeat center">
       <nav class="dt w-100 mw8 center"> 
         <div class="dtc w2 v-mid pa3">
           <a href="/" class="dib w2 h2 pa1 ba b--white-90 grow-large border-box">
@@ -19,13 +19,25 @@
         <NuxtLink class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" to="/HomeMDMA">MDMA Mai Dire Mi Arrendo</NuxtLink>
         <span class="dib v-mid ph3 white-70 mb3">o</span>
         <NuxtLink class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" to="/HomeNDI">Nel Dominio dell'Incerto</NuxtLink>
+        <!-- <h1 class="fw5 f5 white-80 mt3 mb4" style="center">Music: www.bensound.com</h1> -->
       </div>
+      <h1 class="tc-l mt7 mt7-m mt7-l ph3 center white-70">Music: www.bensound.com</h1>
     </div>
   </header>
 </template>
 
 <script>
-export default {}
+
+const {Howl, Howler} = require('howler');
+
+export default {
+  mounted: function () {
+    var sound = new Howl({
+      src: ['bensound-onceagain.mp3']
+    });
+    sound.play();
+  }  
+}
 </script>
 
 <style>
