@@ -35,7 +35,7 @@ export default {
     var sound = new Howl({
       src: ['bensound-onceagain.mp3']
     });
-    sound.play();
+    //sound.play();
   }  
 }
 </script>

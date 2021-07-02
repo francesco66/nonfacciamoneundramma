@@ -9,8 +9,9 @@
         <NuxtLink class="link grow br3 ba bw1 pa2 mb3 bg-animate hover-bg-near-black bg-light-purple white" to="/HomeMDMA">MDMA Home</NuxtLink>
       </div>
       <div class="flex-grow pa2 flex items-center">
-        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onClick(article)">Scarica</a>
-        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onClick(article)">Commenta</a>
+        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
+        <!-- <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onComment(article)">Commenta</a> -->
+        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { slug: article.slug } }">Commenta</NuxtLink>
       </div>
     </nav>
 
@@ -46,6 +47,8 @@ import { saveAs } from 'file-saver';
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('articlesMDMA', params.slug, { 'text': true }).fetch()
+
+    //const testo = article.text
     
     const [prev, next] = await $content('articlesMDMA')
         /*.only(['title', 'slug', 'autore', 'data'])*/
@@ -56,6 +59,7 @@ export default {
 
     return {
       article,
+      //testo,
       prev,
       next,
     }
@@ -63,12 +67,12 @@ export default {
 
   methods: {
     // per scaricare il file in formato testo
-    async onClick(article) {
+    async onDownload(article) {
       var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
       saveAs(blob, article.slug + ".txt");
     },
     // per mandare una mail con correzioni 
-    async onSend(article) {
+    async onComment(article) {
       var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
       //saveAs(blob, article.slug + ".txt");
     }

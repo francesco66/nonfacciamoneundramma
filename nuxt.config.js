@@ -18,7 +18,7 @@ export default {
   target: 'static',
 
   router: {
-    // necessario per github pages ma FORSE non per altri siti?
+    // necessario per github pages ma non per altri siti
     base: '/nonfacciamoneundramma/'
   },
 
@@ -42,6 +42,17 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/axios',
+    ['nuxt-mail', {
+      message: {
+        to: 'francescoarmandoporta@gmail.com',
+      },
+      smtp: {
+        host: "smtp.gmail.com",
+        // port: 587,
+        port: 465,
+      },
+    }],
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
