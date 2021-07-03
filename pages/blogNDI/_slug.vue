@@ -10,7 +10,7 @@
       </div>
       <div class="flex-grow pa2 flex items-center">
         <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
-        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug } }">Commenta</NuxtLink>
+        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug, testo: article.text } }">Commenta</NuxtLink>
       </div>
     </nav>
 
@@ -66,8 +66,7 @@ export default {
       var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
       saveAs(blob, article.slug + ".txt");
     },
-  }
-
+  },
 }
 </script>
 

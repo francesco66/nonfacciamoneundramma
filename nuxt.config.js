@@ -13,9 +13,9 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    // my script added globally
+    // script added globally
     script: [
-      { hid: 'MailtoUI', src: 'js/mailtoui-min.js', defer: true },
+      { hid: 'MailtoUI', src: 'mailtoui-min.js', defer: true },
     ]
   },
 

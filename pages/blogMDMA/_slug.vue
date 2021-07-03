@@ -10,7 +10,7 @@
       </div>
       <div class="flex-grow pa2 flex items-center">
         <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
-        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug } }">Commenta</NuxtLink>
+        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug, testo: article.text } }">Commenta</NuxtLink>
       </div>
     </nav>
 
@@ -25,7 +25,7 @@
       height="200">
 
     <p class="measure lh-copy mb4">
-      <nuxt-content :document="article" />
+      <nuxt-content :document="article" type="text/plain;charset=utf-8"/>
     </p>
 
     <nav class="flex justify-between bb b--white-10">
