@@ -9,8 +9,8 @@
         <NuxtLink class="link grow br3 ba bw1 pa2 mb3 bg-animate hover-bg-near-black bg-light-purple white" to="/HomeNDI">Nel Dominio dell'Incerto Home</NuxtLink>
       </div>
       <div class="flex-grow pa2 flex items-center">
-        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onClick(article)">Scarica</a>
-        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onClick(article)">Commenta</a>
+        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
+        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug } }">Commenta</NuxtLink>
       </div>
     </nav>
 
@@ -27,7 +27,6 @@
     <p class="measure lh-copy mb4">
       <nuxt-content :document="article" />
     </p>
-    <!-- <NuxtLink class="link black hover-black-50 no-underline flex items-center pa3" :to="{ name: 'MailCorrezioni', params: { testo: testo } }">Segnala errori</NuxtLink> -->
 
     <nav class="flex justify-between bb b--white-10">
       <div class="flex-grow pa3 pl1 flex items-center">
@@ -41,10 +40,11 @@
 </template>
 
 <script>
+import { saveAs } from 'file-saver';
+
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('articlesNDI', params.slug, { 'text': true }).fetch()
-    let show_parole = false
 
     const [prev, next] = await $content('articlesNDI')
       /*.only(['title', 'slug', 'autore', 'data'])*/
@@ -53,15 +53,21 @@ export default {
       .surround(params.slug)
       .fetch()
 
-    // console.log(article.video)
-
     return {
       article,
       prev,
       next,
-      show_parole
     }
+  },
+
+  methods: {
+    // per scaricare il file in formato testo
+    async onDownload(article) {
+      var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
+      saveAs(blob, article.slug + ".txt");
+    },
   }
+
 }
 </script>
 

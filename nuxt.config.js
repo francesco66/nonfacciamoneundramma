@@ -12,6 +12,10 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    // my script added globally
+    script: [
+      { hid: 'MailtoUI', src: 'js/mailtoui-min.js', defer: true },
     ]
   },
 
@@ -42,17 +46,6 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/axios',
-    ['nuxt-mail', {
-      message: {
-        to: 'francescoarmandoporta@gmail.com',
-      },
-      smtp: {
-        host: "smtp.gmail.com",
-        // port: 587,
-        port: 465,
-      },
-    }],
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content

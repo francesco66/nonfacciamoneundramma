@@ -10,8 +10,7 @@
       </div>
       <div class="flex-grow pa2 flex items-center">
         <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
-        <!-- <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onComment(article)">Commenta</a> -->
-        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { slug: article.slug } }">Commenta</NuxtLink>
+        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug } }">Commenta</NuxtLink>
       </div>
     </nav>
 
@@ -28,7 +27,6 @@
     <p class="measure lh-copy mb4">
       <nuxt-content :document="article" />
     </p>
-    <!-- <NuxtLink class="link black hover-black-50 no-underline flex items-center pa3" :to="{ name: 'MailCorrezioni', params: { slug: article.slug } }">Segnala errori</NuxtLink> -->
 
     <nav class="flex justify-between bb b--white-10">
       <div class="flex-grow pa3 pl1 flex items-center">
@@ -48,8 +46,6 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content('articlesMDMA', params.slug, { 'text': true }).fetch()
 
-    //const testo = article.text
-    
     const [prev, next] = await $content('articlesMDMA')
         /*.only(['title', 'slug', 'autore', 'data'])*/
         /* .sortBy('createdAt', 'asc') */
@@ -59,7 +55,6 @@ export default {
 
     return {
       article,
-      //testo,
       prev,
       next,
     }
@@ -71,31 +66,7 @@ export default {
       var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
       saveAs(blob, article.slug + ".txt");
     },
-    // per mandare una mail con correzioni 
-    async onComment(article) {
-      var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
-      //saveAs(blob, article.slug + ".txt");
-    }
-
-
   }
-
-/*
-      axios({
-        url: path, //'http://localhost:8000/my.pdf',
-        method: 'GET',
-        responseType: 'blob',
-      }).then((response) => {
-        var fileURL = window.URL.createObjectURL(new Blob([response.data]));
-        var fileLink = document.createElement('a');
-
-        fileLink.href = fileURL;
-        fileLink.setAttribute('download', 'file.pdf');
-        document.body.appendChild(fileLink);
-        fileLink.click();
-        });
-        */
-
 }
 </script>
 

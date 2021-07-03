@@ -19,25 +19,12 @@
         <NuxtLink class="f6 no-underline grow dib v-mid bg-blue white ba b--blue ph3 pv2 mb3" to="/HomeMDMA">MDMA Mai Dire Mi Arrendo</NuxtLink>
         <span class="dib v-mid ph3 white-70 mb3">o</span>
         <NuxtLink class="f6 no-underline grow dib v-mid white ba b--white ph3 pv2 mb3" to="/HomeNDI">Nel Dominio dell'Incerto</NuxtLink>
-        <!-- <h1 class="fw5 f5 white-80 mt3 mb4" style="center">Music: www.bensound.com</h1> -->
       </div>
-      <h1 class="tc-l mt7 mt7-m mt7-l ph3 center white-70">Music: www.bensound.com</h1>
     </div>
   </header>
 </template>
 
 <script>
-
-const {Howl, Howler} = require('howler');
-
-export default {
-  mounted: function () {
-    var sound = new Howl({
-      src: ['bensound-onceagain.mp3']
-    });
-    //sound.play();
-  }  
-}
 </script>
 
 <style>
