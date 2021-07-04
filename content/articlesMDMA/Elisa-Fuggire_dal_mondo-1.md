@@ -4,7 +4,7 @@ titolo: Fuggire dal mondo
 autore: Elisa
 parole: 
 data: 'maggio 2021'
-img: pexels-miguel-á-padriñán.jpg
+img: pexels-miguel.jpg
 tags: 
 ---
 Sono il piÃ¹ giovane del mio battaglione, ho solo 15 anni, ma tutti devono combattere per difendere la patria, nessuno escluso, ragazzi, uomini, talvolta bambini.

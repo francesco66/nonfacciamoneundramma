@@ -35,6 +35,13 @@
     "_name": "_7b383a8a"
   },
   {
+    "name": "MailCorrezioni2",
+    "path": "/MailCorrezioni2",
+    "component": "/home/fra/Teatro_repo/nonfacciamoneundramma/pages/MailCorrezioni2.vue",
+    "chunkName": "pages/MailCorrezioni2",
+    "_name": "_eb9fc3f2"
+  },
+  {
     "name": "perche",
     "path": "/perche",
     "component": "/home/fra/Teatro_repo/nonfacciamoneundramma/pages/perche.vue",

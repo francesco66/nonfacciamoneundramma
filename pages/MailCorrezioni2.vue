@@ -1,21 +1,16 @@
 <template>
   <div>
-    <div>
-      <form class="pa4 black-80">
-        <div>
-          <label for="comment" class="f8 b db mb2">Testo da correggere</label>
-          <textarea id="comment" class="db border-box hover-black w-100 min-vh-100 ba b--black-20 pa2 br2 mb2"
-            spellcheck="false"
-            type="text/plain;charset=utf-8"
-            :value="article.text"
-          >
-          </textarea>
-          <!-- <a class="f6 link dim br3 ba bw1 ph3 pv2 mb2 dib black" :href="mailtoHref" v-on:click="sendMail(article)">Invia</a> -->
-        </div>
-      </form>
+    <div class="pa4 black-80">
+      <label for="comment" class="f8 b db mb2">Testo da correggere</label>
+      <textarea id="comment" class="db border-box w-100 vh-50 pa2 br2 mb2"
+          spellcheck="false"
+          type="text/plain;charset=utf-8"
+          :value="article.text"
+       >
+       </textarea>
     </div>
     <div>
-      <a class="f6 link dim br3 ba bw1 ph3 pv2 mb2 dib black" :href="mailtoHref" v-on:click="sendMail(article)">Invia</a>
+      <a class="mailtoui f6 link grow br3 ba bw1 ph3 pv2 mb2 dib black" :href="mailtoHref">Invia</a>
     </div>
   </div>
 </template>
@@ -50,12 +45,12 @@ export default {
     sendMail(article) {
       // const subject = "&subject=" + article.path
       // const mail = "mailto:francescoarmandoporta@gmail.com?body=" + encodeURI(testo) + encodeURI(subject);
-      mailtouiApp.run();
+      // mailtouiApp.run();
     }
   },
 
   mounted() {
-    // mailtouiApp.run();
+    mailtouiApp.run();
   },
 
 }

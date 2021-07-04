@@ -9,6 +9,7 @@ const _04abfd21 = () => interopDefault(import('../pages/dovesiamo.vue' /* webpac
 const _5f3885a8 = () => interopDefault(import('../pages/HomeMDMA.vue' /* webpackChunkName: "pages/HomeMDMA" */))
 const _5ff752bc = () => interopDefault(import('../pages/HomeNDI.vue' /* webpackChunkName: "pages/HomeNDI" */))
 const _7b383a8a = () => interopDefault(import('../pages/MailCorrezioni.vue' /* webpackChunkName: "pages/MailCorrezioni" */))
+const _eb9fc3f2 = () => interopDefault(import('../pages/MailCorrezioni2.vue' /* webpackChunkName: "pages/MailCorrezioni2" */))
 const _01b3fea5 = () => interopDefault(import('../pages/perche.vue' /* webpackChunkName: "pages/perche" */))
 const _5937feca = () => interopDefault(import('../pages/blogMDMA/_slug.vue' /* webpackChunkName: "pages/blogMDMA/_slug" */))
 const _b69ed6cc = () => interopDefault(import('../pages/blogNDI/_slug.vue' /* webpackChunkName: "pages/blogNDI/_slug" */))
@@ -45,6 +46,10 @@ export const routerOptions = {
     path: "/MailCorrezioni",
     component: _7b383a8a,
     name: "MailCorrezioni"
+  }, {
+    path: "/MailCorrezioni2",
+    component: _eb9fc3f2,
+    name: "MailCorrezioni2"
   }, {
     path: "/perche",
     component: _01b3fea5,

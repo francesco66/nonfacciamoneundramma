@@ -4,7 +4,7 @@ titolo: Fuggire dal mondo
 autore: Elisa
 parole: 
 data: 'maggio 2021'
-img: pexels-miguel-á-padriñán.jpg
+img: pexels-miguel.jpg
 tags: 
 ---
 Non ne ho piÃ¹ voglia di stare ad ascoltare questa stupida lezione di matematicaâ€¦

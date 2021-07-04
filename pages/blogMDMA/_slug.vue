@@ -10,7 +10,8 @@
       </div>
       <div class="flex-grow pa2 flex items-center">
         <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
-        <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug, testo: article.text } }">Commenta</NuxtLink>
+        <a class="mailtoui link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :href="mailtoHref">Invia Mail</a>
+        <!-- <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni2', params: { dir: article.dir, slug: article.slug } }">Commenta</NuxtLink> -->
       </div>
     </nav>
 
@@ -45,6 +46,8 @@ import { saveAs } from 'file-saver';
 export default {
   async asyncData({ $content, params }) {
     const article = await $content('articlesMDMA', params.slug, { 'text': true }).fetch()
+    const subject = "&subject=" + article.path
+    const email = "mailto:francescoarmandoporta@gmail.com?body=" + encodeURI(article.text) + encodeURI(subject);
 
     const [prev, next] = await $content('articlesMDMA')
         /*.only(['title', 'slug', 'autore', 'data'])*/
@@ -57,6 +60,7 @@ export default {
       article,
       prev,
       next,
+      email
     }
   },
 
@@ -66,7 +70,18 @@ export default {
       var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
       saveAs(blob, article.slug + ".txt");
     },
-  }
+  },
+
+  computed: {
+    mailtoHref: function() {
+      return this.email;
+    }
+  },
+
+  mounted() {
+    //mailtouiApp.run({ "autoClose": true });
+  },
+
 }
 </script>
 
