@@ -10,5 +10,11 @@
   },
   "PrevNextNDI": {
     "description": "Auto imported from components/PrevNextNDI.vue"
+  },
+  "ButtonDownload": {
+    "description": "Auto imported from components/buttonDownload.vue"
+  },
+  "ButtonEmailCorrezioni": {
+    "description": "Auto imported from components/buttonEmailCorrezioni.vue"
   }
 }

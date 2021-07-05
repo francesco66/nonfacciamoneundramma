@@ -10,3 +10,5 @@ You can directly use them in pages and other components without the need to impo
 - `<AppSearchInputNDI>` | `<app-search-input-ndi>` (components/AppSearchInputNDI.vue)
 - `<PrevNextMDMA>` | `<prev-next-mdma>` (components/PrevNextMDMA.vue)
 - `<PrevNextNDI>` | `<prev-next-ndi>` (components/PrevNextNDI.vue)
+- `<ButtonDownload>` | `<button-download>` (components/buttonDownload.vue)
+- `<ButtonEmailCorrezioni>` | `<button-email-correzioni>` (components/buttonEmailCorrezioni.vue)

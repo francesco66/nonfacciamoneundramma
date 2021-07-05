@@ -9,9 +9,10 @@
         <NuxtLink class="link grow br3 ba bw1 pa2 mb3 bg-animate hover-bg-near-black bg-light-purple white" to="/HomeNDI">Nel Dominio dell'Incerto Home</NuxtLink>
       </div>
       <div class="flex-grow pa2 flex items-center">
-        <a class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" v-on:click="onDownload(article)">Scarica</a>
-        <a class="mailtoui link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :href="mailtoHref">Invia Mail</a>
-        <!-- <NuxtLink class="link grow br3 ba bw1 pa2 mb3 ml3 bg-animate hover-bg-light-purple bg-black-50 white" :to="{ name: 'MailCorrezioni', params: { dir: article.dir, slug: article.slug, testo: article.text } }">Commenta</NuxtLink> -->
+        <!-- Download as text or as PDF-->
+        <buttonDownload :article="article"/>
+        <!-- Email Correzioni -->
+        <buttonEmailCorrezioni :email="email"/>
       </div>
     </nav>
 
@@ -61,20 +62,6 @@ export default {
       prev,
       next,
       email
-    }
-  },
-
-  methods: {
-    // per scaricare il file in formato testo
-    async onDownload(article) {
-      var blob = new Blob(["\n" + article.autore + "\n\n" + article.titolo + "\n\n" + article.text], {type: "text/plain;charset=utf-8"});
-      saveAs(blob, article.slug + ".txt");
-    },
-  },
-
-  computed: {
-    mailtoHref: function() {
-      return this.email;
     }
   },
 
