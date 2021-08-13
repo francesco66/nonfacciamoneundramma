@@ -36,10 +36,10 @@ ti aiuta nel disamore di una qualche relazione andata male e che alla fine
 ti fa sentire libero.
 
 ”La vita ha scelto di darmi un'altra possibilità” penso mentre vedo
-il posto in cui ero tenuto prigioniere cadere nella distruzione, dopo che Harry,
+il posto in cui ero tenuto prigioniero cadere nella distruzione, dopo che Harry,
 la persona che mi ha salvato, ha deciso di farlo saltare in aria.
 
-Un'altra possibilità...penso, mentre salgo nella macchina che mi porter�
+Un'altra possibilità...penso, mentre salgo nella macchina che mi porter�
 definitamente in salvo...una possibilità che andrò a cogliere cercando un
 nuovo lavoro, abbandonando la strada del crimine e magari chi lo sa,
 andando a crearmi una famiglia.

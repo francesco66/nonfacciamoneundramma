@@ -47,7 +47,7 @@ export default {
   async asyncData({ $content, params }) {
     const article = await $content('articlesMDMA', params.slug, { 'text': true }).fetch()
     const subject = "&subject=" + article.path
-    const email = "mailto:francescoarmandoporta@gmail.com?body=" + encodeURI(article.text) + encodeURI(subject);
+    const email = "mailto:francescoarmandoporta@gmail.com?subject=" + encodeURI(subject) + "&body=" + encodeURI(article.text);
 
     const [prev, next] = await $content('articlesMDMA')
         /*.only(['title', 'slug', 'autore', 'data'])*/

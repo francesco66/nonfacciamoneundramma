@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<AppSearchInputMDMA>` | `<app-search-input-mdma>` (components/AppSearchInputMDMA.vue)
 - `<AppSearchInputNDI>` | `<app-search-input-ndi>` (components/AppSearchInputNDI.vue)
+- `<Gemini>` | `<gemini>` (components/Gemini.vue)
 - `<PrevNextMDMA>` | `<prev-next-mdma>` (components/PrevNextMDMA.vue)
 - `<PrevNextNDI>` | `<prev-next-ndi>` (components/PrevNextNDI.vue)
 - `<ButtonDownload>` | `<button-download>` (components/buttonDownload.vue)

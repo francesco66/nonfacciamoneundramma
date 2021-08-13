@@ -5,6 +5,9 @@
   "AppSearchInputNDI": {
     "description": "Auto imported from components/AppSearchInputNDI.vue"
   },
+  "Gemini": {
+    "description": "Auto imported from components/Gemini.vue"
+  },
   "PrevNextMDMA": {
     "description": "Auto imported from components/PrevNextMDMA.vue"
   },
